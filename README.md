@@ -1,4 +1,12 @@
-# cs50-final-project
+# TRUMPdemic
+
+### cs50-final-project
+
+#### Video Demo: <URL HERE>
+
+#### Description:
+
+A web application to communicate the truth about lies and unjustices.
 
 ## Project setup
 
