@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Flask App</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-</head>
-<body>
-    <h1>Welcome to My Flask App!!!</h1>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block main %}
+<div class="col-8 col-sm-6 mx-auto">
+    <img src="{{ url_for('static', filename='images/jorgen-haland-QVeRgFErOPs-unsplash.jpg') }}" class="rounded mx-auto d-block img-fluid" alt="Trump and Putin Nesting Dolls">
+    <span>Photo by <a href="https://unsplash.com/@jhaland?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jørgen Håland</a> on <a href="https://unsplash.com/photos/donald-trump-nesting-dolls-on-red-textile-QVeRgFErOPs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    </span>
+</div>
+<h1>Welcome to My Flask App!!!</h1>
+
+{% endblock %}
